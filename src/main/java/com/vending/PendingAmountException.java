@@ -1,21 +1,21 @@
 package com.vending;
 
 public class PendingAmountException extends RuntimeException {
-    private String message;
-    private long pending;
+	private String message;
+	private long pending;
 
-    public PendingAmountException(String message, long remaining) {
-        this.message = message;
-        this.pending = remaining;
-    }
+	public PendingAmountException(String message, long remaining) {
+		this.message = message;
+		this.pending = remaining;
+	}
 
-    public long getRemaining() {
-        return pending;
-    }
+	public long getRemaining() {
+		return pending;
+	}
 
-    @Override
-    public String getMessage() {
-        return message + pending;
-    }
+	@Override
+	public String getMessage() {
+		return message + pending;
+	}
 
 }

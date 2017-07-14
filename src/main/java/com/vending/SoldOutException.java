@@ -1,15 +1,15 @@
 package com.vending;
 
 public class SoldOutException extends RuntimeException {
-    private String message;
+	private String message;
 
-    public SoldOutException(String string) {
-        this.message = string;
-    }
+	public SoldOutException(String string) {
+		this.message = string;
+	}
 
-    @Override
-    public String getMessage() {
-        return message;
-    }
+	@Override
+	public String getMessage() {
+		return message;
+	}
 
 }

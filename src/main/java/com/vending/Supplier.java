@@ -1,6 +1,7 @@
 package com.vending;
 
 public interface Supplier {
-    VendingMachineBuilder vendingMachineBuilder();
-    void reset(VendingMachine vendingMachine);
+	VendingMachineBuilder vendingMachineBuilder();
+
+	void reset(VendingMachine vendingMachine);
 }

@@ -39,8 +39,9 @@ public class Product {
 	}
 
 	private final Integer id;
-    private final String name;
-    private final Integer price;
+	private final String name;
+	private final Integer price;
+
 	public Integer getId() {
 		return id;
 	}
@@ -52,12 +53,12 @@ public class Product {
 	public Integer getPrice() {
 		return price;
 	}
-	
+
 	public Product(Integer id, String name, Integer price) {
-        this.id = id;
-        this.name = name;
-        this.price = price;
-    }
+		this.id = id;
+		this.name = name;
+		this.price = price;
+	}
 
 	@Override
 	public String toString() {
